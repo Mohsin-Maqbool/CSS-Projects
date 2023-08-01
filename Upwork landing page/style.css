@@ -1,0 +1,365 @@
+body{
+    padding: 0;
+}
+#top-navbar {
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    height: 65px;
+    margin: 0;
+}
+
+nav{
+    /* max-width: 800px; */
+    margin: 0;
+    width: 100%;
+}
+img {
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+#top-first-navbar {
+    position: absolute;
+    top: 13px;
+    left: 100px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+
+}
+
+ul>li {
+    width: 110px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #001e00;
+
+}
+
+.li {
+    color:#001e00;
+}
+
+a:hover {
+    color: #14a800;
+}
+
+
+#input {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 48%;
+    border-radius: 60px;
+    width: 334px;
+    height: 40px;
+    /* margin-right: 10%; */
+    /* float: right; */
+    border: 1px solid #bfc9bd;
+}
+
+#search {
+    border: 5px solid #bfc9bd;
+    background-image:url(./Images/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position:left;
+   /* position: absolute; */
+   padding-left: 30px;
+  
+  border-style: hidden;
+   /* left: 20px; */
+   
+}
+::placeholder{
+    color: black;
+    font-size: 16px;
+   
+}
+button{
+    position: relative;
+    top: -25px;
+    left: 48.5%;
+    height: 32px;
+    width: 96px;
+    border-radius: 60px;
+    border-style: hidden;
+   background-color: white;
+}
+#search{
+    position: relative;
+    top: -25px;
+    left: 49%;
+    height: 32px;
+    width: 230px;
+    border-radius: 60px;
+    border-style: hidden;
+    
+}
+p{
+    position: absolute;
+    top: 13px;
+    left: 85%;
+    width: 110px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+#signup{
+    position: absolute;
+    top: 16px;
+    left: 89.5%;
+    width: 105px;
+    height: 45px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+}
+a > #signup:hover {
+    background-color: #14a800;
+    color: white;
+}
+
+
+
+
+#top-second-navbar {
+    position: absolute;
+    top: 9%;
+    left: -15px;
+   float: left;
+    list-style-type: none;
+    width: 90%;
+    color: #001e00;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.list {
+    display: inline;
+color: #001e00;
+}
+
+ #top-second-navbar >ul >li {
+    /* width: 120px; */
+    /* display: inline-block; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+font-weight: 500px;
+}
+
+.list {
+    color: #001e00;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    line-height: 15px;
+    word-spacing: 1px;
+    
+}
+
+.second:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+
+h1{
+    float: left;
+    padding-top: 1%;
+    padding-left: 4.5%;
+    color: #14a800;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+}
+#span{
+    
+    /* padding-top: 3%;
+    padding-left: 4.5%; */
+    /* line-height: 80px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;  */
+    position: absolute;
+    top: 38%;
+    left: 5%;
+  margin-right: 0%;
+  line-height: 32px;
+    letter-spacing: .24px;
+    font-style: normal;
+    font-size: 25px;
+    color: #5e6d55; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#getstarted{
+        position: absolute;
+        top: 49%;
+        left: 5%;
+        width: 140px;
+        height: 40px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color: green;
+        font-weight: bold;
+    
+}
+a > #getstarted:hover {
+    background-color: #14a800;
+    color: white;
+}
+#front{
+    float: right;
+    width: 450px;
+    height: 450px;
+    right: 70px;
+    top: 70px;
+    position: relative;
+    /* height: auto; */
+}
+#Trusted{
+    float: left;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: #9aaa97;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: lighter; */
+    font-weight: bold;
+}
+#logos{
+   
+    position: absolute;
+    top: 63%;
+    left: 3.5%;
+   
+}
+#me{
+    position: absolute;
+    top: 76%;
+    left: 3.5%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
+}
+h2{
+    float: right;
+    position: absolute;
+    top: 76%;
+   right: 20%;
+   font-size: 38px;
+   margin-bottom: 24px;
+}
+#third{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third{
+    /* position: absolute;
+    top: 86%;
+   left: 46%; */
+   font-size: 20px;
+    letter-spacing: 0.015em;
+    line-height: 20px;
+}
+#third1{
+    position: absolute;
+    top: 84%;
+   left: 46%;
+}
+#third2{
+    position: absolute;
+    top: 92%;
+   left: 46%;
+}
+#third3{
+    position: absolute;
+    top: 100%;
+   left: 46%;
+}
+/* p1{
+    position: absolute;
+} */
+.p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+     margin-top: 4px;
+     display: block;
+     /* position: absolute; */
+     font-family: Arial, Helvetica, sans-serif;
+}
+#p1{
+    position: absolute;
+    top: 90%;
+    left: 46%;
+}
+#p2{
+    position: absolute;
+    top: 98%;
+   left: 46%;
+}
+#p3{
+    position: absolute;
+    top: 106%;
+    left: 46%;
+}
+#signupfree{
+    float: right;
+    position: absolute;
+    top: 112%;
+    left: 44%;
+    width: 164px;
+    height: 42px;
+    /* display: inline-block; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+
+}
+a > #signupfree:hover {
+background-color: #14a800;
+color: white;
+}
+#hire{
+    float: right;
+    position: absolute;
+    top: 112%;
+    left: 59%;
+    width: 164px;
+    height: 42px;
+    /* display: inline-block; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #14a800;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid green;
+
+}
+a > #hire:hover {
+background-color: rgb(248, 242, 242);
+color: #14a800;
+}
