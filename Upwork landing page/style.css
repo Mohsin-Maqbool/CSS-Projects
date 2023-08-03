@@ -1125,7 +1125,7 @@ a>#learnmore:hover {
   }
 
   #two:hover span {
-    color: #14a800; /* Set the text color on hover */
+    color: #14a800fd; /* Set the text color on hover */
   }
 
 
